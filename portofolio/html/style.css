@@ -1,0 +1,109 @@
+    body {
+        font-size: 20;
+        font-family: 'Roboto', sans-serif;
+    }
+    
+    .wrapper {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        /* padding : 100; */
+    }
+    
+    .flex-wrapper {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        z-index: 100;
+        display: flex;
+        position: relative;
+    }
+    
+    .flex-content {
+        display: flex;
+        flex: 3;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .with-image {
+        background-image: url("./mac.jpg");
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+    }
+    
+    .flex-top-name {
+        flex: 3;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+    
+    .top-name {
+        border: 5px solid black;
+        padding: 5px;
+    }
+    
+    .top-name a {
+        color: white;
+        text-decoration: none;
+    }
+    
+    .content {
+        font-weight: 400;
+        width: 50%;
+    }
+    
+    .content p {
+        font-size: 2rem;
+        color: white;
+        text-align: center;
+    }
+    
+    .flex-form {
+        display: flex;
+        flex-direction: row;
+        width: 50%;
+        flex: 3;
+    }
+    
+    .flex-form .flex-parent-input-form {
+        flex: 0.6;
+    }
+    
+    .flex-form .flex-parent-input-form {
+        margin-right: 10px;
+        border-radius: 5px;
+        background-color: white;
+        overflow: hidden;
+        padding: 10px;
+        display: flex;
+    }
+    
+    .flex.form .flex-parent-input-form .flex-input-from {
+        border: 0;
+        height: 100%;
+        width: 100%;
+        padding: 0 10px;
+        font-size: 0.8rem;
+    }
+    
+    .flex-form .flex-button-form {
+        flex: 0.4;
+    }
+    
+    .flex-form .flex-button-form .button-form {
+        display: block;
+        border-radius: 5px;
+        background: red;
+        text-align: center;
+        padding: 10px;
+        text-decoration: none;
+        color: white;
+        font-size: 0.8rem;
+    }
